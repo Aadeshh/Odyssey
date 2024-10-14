@@ -1,0 +1,12 @@
+[package]
+name = "odyssey_vibes_program"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+solana-program = "1.9.0"        # Solana SDK for Rust
+borsh = "0.9"                    # Borsh serialization library
+borsh-derive = "0.9"             # Borsh derive macro for easy struct serialization

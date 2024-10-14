@@ -1,0 +1,56 @@
+{
+    "name": "template-nextjs",
+    "version": "1.1.1",
+    "description": "A Phaser 3 Next.js project template that demonstrates Next.js with React communication and uses Vite for bundling.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/phaserjs/template-nextjs.git"
+    },
+    "author": "Phaser Studio <support@phaser.io> (https://phaser.io/)",
+    "license": "MIT",
+    "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+    "bugs": {
+        "url": "https://github.com/phaserjs/template-nextjs/issues"
+    },
+    "homepage": "https://aadeshh.github.io/SdOdyssey",
+    "keywords": [
+        "next",
+        "nextjs",
+        "vite",
+        "typescript"
+    ],
+    "scripts": {
+        "dev": "node log.js dev & next dev -p 8080",
+        "build": "next build",
+        "dev-nolog": "next dev -p 8080",
+        "build-nolog": "next build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist -f",
+        "export": "next export"
+    },
+    "dependencies": {
+        "@react-spring/web": "^9.7.4",
+        "@types/howler": "^2.2.12",
+        "autoprefixer": "^10.4.20",
+        "axios": "^1.7.7",
+        "howler": "^2.2.4",
+        "next": "^14.2.11",
+        "pixi.js": "^7.2.4",
+        "postcss": "^8.4.45",
+        "react": "^18",
+        "react-dom": "^18",
+        "react-modal": "^3.16.1",
+        "react-tinder-card": "^1.6.4",
+        "shadcn-ui": "^0.9.1",
+        "sharp": "^0.33.5",
+        "tailwindcss": "^3.4.11"
+    },
+    "devDependencies": {
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "eslint": "^9.12.0",
+        "gh-pages": "^6.2.0",
+        "typescript": "^5.6.2"
+    }
+}
